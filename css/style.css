@@ -1,0 +1,35 @@
+body{
+    background: url("../img/filip-bunkens-R5SrmZPoO40-unsplash.jpg");
+    background-position: center center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container{
+    display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: -10rem;
+    font-weight: normal;
+}
+
+.time{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 3rem;
+}
+
+.go{
+    text-align: center;
+}
+
+.go span{
+    font-size: 21px;
+}
